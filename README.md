@@ -1,61 +1,86 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🎯 Livewire 3 Examples for Beginners
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
 
-## About Laravel
+![Livewire Logo](https://laravel-livewire.com/img/twitter.png)  
+**A collection of practical Livewire 3 examples for Laravel developers**
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## ✨ Features
+- 6 practical examples from beginner to advanced
+- Livewire 3 + Laravel 12
+- Tailwind CSS styling
+- Ready-to-use with complete setup
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## 🚀 Quick Start
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+### Prerequisites
+- PHP 8.2+
+- Composer
+- Node.js 18+
+- Database (MySQL/SQLite)
 
-## Learning Laravel
+### Installation
+```bash
+# Clone repository
+git clone https://github.com/Ashkan-GhelichKhani/livewire-3-examples.git
+cd livewire-3-examples
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+# Install dependencies
+composer install
+npm install
+npm run build
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+# Configuration
+cp .env.example .env
+php artisan key:generate
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+# Database setup (SQLite example)
+touch database/database.sqlite
 
-## Laravel Sponsors
+# Run migrations
+php artisan migrate
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+# Start development server
+php artisan serve
 
-### Premium Partners
+## 🧩 Existing examples
+| Example | Route | Description |
+|---------|-----------|-----------------------|
+| Counter | `/counter` | Simple state management |
+| Calculator | `/calculator` | Calculation form |
+| Todo List | `/todo` | Complete CRUD system |
+| Regions | `/regions` | Related dropdowns |
+| Products | `/products` | Search + Pagination |
+| Registration | `/registration` | Form validation |
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+## 📸 Screenshots
+<div dir="ltr" align="center">
+  <img src="screenshots/home.png" width="30%" alt="Home">
+  <img src="screenshots/counter.png" width="30%" alt="Counter">
+  <img src="screenshots/calculator.png" width="30%" alt="Calculator">
+  <img src="screenshots/todo.png" width="30%" alt="Todo">  
+  <img src="screenshots/regions.png" width="30%" alt="Regions">
+  <img src="screenshots/products.png" width="30%" alt="Products">
+  <img src="screenshots/registration.png" width="30%" alt="Registration">
+</div>
 
-## Contributing
+🤝 Contributing Guide
+We welcome contributions! Here's how to help:
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Fork the repository
 
-## Code of Conduct
+Create a branch:
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+bash
+git checkout -b feature/your-feature
+Commit changes:
 
-## Security Vulnerabilities
+bash
+git commit -m 'Add awesome feature'
+Push to your fork:
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+bash
+git push origin feature/your-feature
+Open a Pull Request
 
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## 📜 لایسنس
+MIT © [Ashkan GhelichKhani](https://ashkanghelichkhani.ir)
