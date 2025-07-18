@@ -41,8 +41,8 @@ php artisan migrate
 
 # Start development server
 php artisan serve
-
-## 🧩 Existing examples
+```
+### 🧩 Existing examples
 | Example | Route | Description |
 |---------|-----------|-----------------------|
 | Counter | `/counter` | Simple state management |
@@ -52,7 +52,7 @@ php artisan serve
 | Products | `/products` | Search + Pagination |
 | Registration | `/registration` | Form validation |
 
-## 📸 Screenshots
+### 📸 Screenshots
 <div dir="ltr" align="center">
   <img src="screenshots/home.png" width="30%" alt="Home">
   <img src="screenshots/counter.png" width="30%" alt="Counter">
@@ -63,24 +63,6 @@ php artisan serve
   <img src="screenshots/registration.png" width="30%" alt="Registration">
 </div>
 
-🤝 Contributing Guide
-We welcome contributions! Here's how to help:
-
-Fork the repository
-
-Create a branch:
-
-bash
-git checkout -b feature/your-feature
-Commit changes:
-
-bash
-git commit -m 'Add awesome feature'
-Push to your fork:
-
-bash
-git push origin feature/your-feature
-Open a Pull Request
-
-## 📜 لایسنس
-MIT © [Ashkan GhelichKhani](https://ashkanghelichkhani.ir)
+### 📜 License
+MIT Licensed. See [LICENSE](LICENSE) file for details.  
+Maintained by [Ashkan GhelichKhani](https://ashkanghelichkhani.ir)
